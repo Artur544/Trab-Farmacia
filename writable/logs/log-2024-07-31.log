@@ -1,0 +1,246 @@
+CRITICAL - 2024-07-31 11:17:45 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: listarDados]
+in APPPATH/Views/listarDados.php on line 16.
+ 1 APPPATH/Views/listarDados.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/aluno/Música/codeigniter4-framework-be27314/app/Views/listarDados.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->listarDados()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:18:38 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: listarDados]
+in APPPATH/Views/listarDados.php on line 16.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(38): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->listarDados()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:43:47 --> Error: Undefined constant "App\Controllers\builder"
+[Method: POST, Route: pesquisar]
+in APPPATH/Controllers/Home.php on line 83.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:44:06 --> Error: Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+[Method: POST, Route: pesquisar]
+in APPPATH/Controllers/Home.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:44:37 --> Error: Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+[Method: POST, Route: pesquisar]
+in APPPATH/Controllers/Home.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:44:44 --> Error: Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+[Method: POST, Route: pesquisar]
+in APPPATH/Controllers/Home.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:46:58 --> TypeError: view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Builder given, called in /home/aluno/Música/codeigniter4-framework-be27314/app/Controllers/Home.php on line 85
+[Method: POST, Route: pesquisar]
+in SYSTEMPATH/Common.php on line 1159.
+ 1 APPPATH/Controllers/Home.php(85): view()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:48:48 --> Error: Class "App\Database" not found
+[Method: POST, Route: pesquisar]
+in APPPATH/Controllers/Home.php on line 80.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:49:00 --> Error: Class "app\Database" not found
+[Method: POST, Route: pesquisar]
+in APPPATH/Controllers/Home.php on line 80.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 11:51:02 --> TypeError: view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Builder given, called in /home/aluno/Música/codeigniter4-framework-be27314/app/Controllers/Home.php on line 85
+[Method: POST, Route: pesquisar]
+in SYSTEMPATH/Common.php on line 1159.
+ 1 APPPATH/Controllers/Home.php(85): view()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:12:06 --> ErrorException: Undefined variable $result
+[Method: GET, Route: listarDados]
+in APPPATH/Views/listarDados.php on line 37.
+ 1 APPPATH/Views/listarDados.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/aluno/Música/codeigniter4-framework-be27314/app/Views/listarDados.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->listarDados()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:12:07 --> ErrorException: Undefined variable $result
+[Method: GET, Route: listarDados]
+in APPPATH/Views/listarDados.php on line 37.
+ 1 APPPATH/Views/listarDados.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/aluno/Música/codeigniter4-framework-be27314/app/Views/listarDados.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->listarDados()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:19:08 --> ErrorException: Undefined variable $result
+[Method: GET, Route: listarDados]
+in APPPATH/Views/listarDados.php on line 38.
+ 1 APPPATH/Views/listarDados.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/aluno/Música/codeigniter4-framework-be27314/app/Views/listarDados.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->listarDados()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:19:10 --> ErrorException: Undefined variable $result
+[Method: GET, Route: listarDados]
+in APPPATH/Views/listarDados.php on line 38.
+ 1 APPPATH/Views/listarDados.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/aluno/Música/codeigniter4-framework-be27314/app/Views/listarDados.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->listarDados()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+ERROR - 2024-07-31 12:19:27 --> mysqli_sql_exception: Table 'farmacia.farmacia' doesn't exist in /home/aluno/Música/codeigniter4-framework-be27314/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/aluno/Música/codeigniter4-framework-be27314/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/aluno/Música/codeigniter4-framework-be27314/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/aluno/Música/codeigniter4-framework-be27314/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/aluno/Música/codeigniter4-framework-be27314/system/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aluno/Música/codeigniter4-framework-be27314/app/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aluno/Música/codeigniter4-framework-be27314/system/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+#6 /home/aluno/Música/codeigniter4-framework-be27314/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 /home/aluno/Música/codeigniter4-framework-be27314/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/aluno/Música/codeigniter4-framework-be27314/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/aluno/Música/codeigniter4-framework-be27314/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/aluno/Música/codeigniter4-framework-be27314/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/aluno/Música/codeigniter4-framework-be27314/system/rewrite.php(44): require_once('...')
+#12 {main}
+CRITICAL - 2024-07-31 12:19:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'farmacia.farmacia' doesn't exist
+[Method: POST, Route: pesquisar]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:19:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'farmacia.farmacia' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:19:27 --> [Caused by] mysqli_sql_exception: Table 'farmacia.farmacia' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:26:03 --> TypeError: CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in /home/aluno/Música/codeigniter4-framework-be27314/app/Controllers/Home.php on line 88
+[Method: POST, Route: pesquisar]
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 36.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
+CRITICAL - 2024-07-31 12:26:06 --> TypeError: CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in /home/aluno/Música/codeigniter4-framework-be27314/app/Controllers/Home.php on line 88
+[Method: POST, Route: pesquisar]
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 36.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->pesquisa()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/aluno/Música/codeigniter4-framework-be27314/public/index.php')
